@@ -22,7 +22,6 @@ public class Ej3Empleado {
 	}
 	
 	public int getEdad() throws ParseException {
-		SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
         Date date = new SimpleDateFormat("dd/MM/yyyy").parse(getFecha());
         
         Calendar currentDate = Calendar.getInstance();
