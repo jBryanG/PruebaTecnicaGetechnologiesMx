@@ -1,8 +1,6 @@
 package ejercicios_joptionpane;
 
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 
 import javax.swing.JOptionPane;
 
@@ -50,7 +48,6 @@ public class Ej1 {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int cont = 0;
 		String text = "Escriba fecha en formato dd/MM/yyyy para validar";
 		do {
@@ -68,7 +65,6 @@ public class Ej1 {
 
 		}while(cont == JOptionPane.YES_OPTION);
 		
-		br.close();
 
 	}
 
